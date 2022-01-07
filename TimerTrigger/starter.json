@@ -1,0 +1,19 @@
+{
+    "taskHubName": "tlimonitorappdevtlimonitorapp",
+    "creationUrls": {
+        "createNewInstancePostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/orchestrators/{functionName}[/{instanceId}]?code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "createAndWaitOnNewInstancePostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/orchestrators/{functionName}[/{instanceId}]?timeout={timeoutInSeconds}&pollingInterval={intervalInSeconds}&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag=="
+    },
+    "managementUrls": {
+        "id": "INSTANCEID",
+        "statusQueryGetUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID?taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "sendEventPostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID/raiseEvent/{eventName}?taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "terminatePostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID/terminate?reason={text}&taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "rewindPostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID/rewind?reason={text}&taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "purgeHistoryDeleteUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID?taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+        "restartPostUri": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask/instances/INSTANCEID/restart?taskHub=tlimonitorappdevtlimonitorapp&connection=Storage&code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag=="
+    },
+    "baseUrl": "https://tlimonitorapp-dev-tli-monitor-app.azurewebsites.net/runtime/webhooks/durabletask",
+    "requiredQueryStringParameters": "code=yqiyfnbVLawdSabrsgZXug1sMReW2caMk9f5xwCe8aJ1E/qKS6bLag==",
+    "rpcBaseUrl": "http://127.0.0.1:17071/durabletask/"
+}
